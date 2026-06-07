@@ -141,7 +141,7 @@ def load_assets():
 model, meta = load_assets()
 
 # ---INPUTS ---
-amount = st.number_input("Transaction Amount ($)", min_value=0.0, value=0.0)
+amount = st.number_input("Transaction Amount ($ in dollars)", min_value=0.0, value=None, placeholder="e.g. 1500.00")
 tx_type = st.selectbox("Transaction Type", ["TRANSFER", "CASH_OUT", "PAYMENT", "CASH_IN", "DEBIT"], index=None, placeholder="Select transaction type")
 name_Orig = st.text_input("Origin Account ID", placeholder="e.g. C123456789")
 new_dest = st.checkbox("New Destination Account (Zero Balance)", value=False)
@@ -150,7 +150,7 @@ step = st.slider("Step (Hour of Month)", 0, 744, 0)
 
 # --- REAL-TIME FEATURE ENGINEERING ---
 if st.button("🔍 Analyze Transaction"):
-    if amount == 0.0 :
+    if amount == None :
         st.warning("⚠️ Please fill in all required input values before analysis.")
 
     else:
