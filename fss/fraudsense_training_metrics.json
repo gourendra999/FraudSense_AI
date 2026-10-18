@@ -1,0 +1,28 @@
+{
+  "roc_auc": 0.9647370740949817,
+  "pr_auc": 0.5836161857558844,
+  "threshold": 0.9980568289756775,
+  "precision": 0.7591911764705882,
+  "recall": 0.4489130434782609,
+  "f1": 0.5642076502732241,
+  "confusion_matrix": [
+    [
+      159324,
+      262
+    ],
+    [
+      1014,
+      826
+    ]
+  ],
+  "threshold_f1": 0.9980568289756775,
+  "threshold_f2": 0.9799497723579407,
+  "f1_at_threshold": 0.5642076502732241,
+  "f2_at_threshold": 0.5745230878944554,
+  "train_rows": 6201194,
+  "test_rows": 161426,
+  "train_fraud_rate": 0.0010277053096548825,
+  "test_fraud_rate": 0.011398411656114877,
+  "train_cutoff_hour": 576,
+  "risk_zone_only": false
+}
