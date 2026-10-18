@@ -58,7 +58,7 @@ Evaluated against strict chronological test splits (true production simulation):
 
 ## Web Application Preview
 - **Dataset Link**: (https://www.kaggle.com/datasets/ealaxi/paysim1)
-*(Link to interactive webapp: https://gourendra999-fraudsense-ai-app-ek0si7.streamlit.app/)*
+*(Link to interactive webapp: https://fraudsenseai.streamlit.app/)*
 
 ---
 
